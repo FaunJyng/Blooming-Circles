@@ -93,8 +93,6 @@ window.addEventListener('mousemove', event => {
     mouse.y = event.y;
 })
 
-console.log(brush);
-
 function animate() {
     brush.clearRect(0, 0, canvas.width, canvas.height);
     for (let circle of circles) {
